@@ -1,0 +1,25 @@
+.body{
+
+}
+
+.checked {
+color:#feff51;
+}
+
+.unchecked {
+color:#AAAAAA;
+}
+
+.ratings{
+    direction: rtl;/* right to left */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+    font-size: 75px;
+}
+
+.ratings .fa:hover{
+  color:#feff51;
+}
+
+.star:hover~ .star{
+  color:#feff51;
+}
