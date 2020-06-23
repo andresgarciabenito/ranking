@@ -1,25 +1,25 @@
 .body{
-
 }
 
 .checked {
 color:#feff51;
 }
 
-.unchecked {
+/* .unchecked {
 color:#AAAAAA;
-}
+} */
 
 .ratings{
-    direction: rtl;/* right to left */
-    unicode-bidi: bidi-override;/* bidi de bidireccional */
+    //direction: rtl;/* right to left */
+    //unicode-bidi: bidi-override;/* bidi de bidireccional */
     font-size: 75px;
+    color:#AAAAAA;
 }
 
-.ratings .fa:hover{
+/* .star:hover{
   color:#feff51;
 }
 
-.star:hover~ .star{
+.star:hover~.star{
   color:#feff51;
-}
+} */
