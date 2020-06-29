@@ -12,11 +12,8 @@ function on(value){
 }
 
 
-body.addEventListener("click", off());
-
-function off(){
-  for (var i=0; i<5; i++){
-      stars[i].classList.remove('checked');
-      stars[i].classList.add('unchecked');
-}
-}
+window.addEventListener("click", function(e) {
+    if (!document.getElementById("ratings").contains(e.target)){
+       clearRates();
+    }
+})
